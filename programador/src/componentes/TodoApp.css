@@ -1,0 +1,66 @@
+.todoContainer {
+  width: 500px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.todoCreateForm {
+  display: flex;
+  gap: 5px;
+}
+
+.todoInput {
+  flex-grow: 1;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: solid 1px rgb(153, 153, 153)
+}
+
+.buttonCreate {
+  border: none;
+  border-radius: 3px;
+  background-color:aqua;
+  color:black;
+  padding: 10px 20px;
+}
+
+.todosContainer {
+  display: flex;
+  flex-direction:column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.todo {
+  padding: 10px;
+  background-color: blue;
+}
+
+.todoTitle {
+  flex: 1;
+  font-size: 20px;
+}
+
+.todoUpdateForm, .todoInfo{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.button {
+  border:none;
+  border-radius: 3px;
+  background-color: brown;
+  color: black;
+  padding: 10px 20px;
+}
+
+.buttonDelete {
+  border:none;
+  border-radius: 3px;
+  background-color:burlywood;
+  color: black;
+  padding: 10px 20px;
+}
